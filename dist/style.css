@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: .5rem;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+.box { border: 10px solid black; }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: #f5f4f7;
+}
+
+
+
+.name-role {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-team { background-color: #ffffff; }
+
+.manager-name { background-color: #ff3535; }
+
+.engineer-name { background-color: #95ff95; }
+
+.intern-name { background-color: #fff388; }
+
+.employee-info { background-color: #f5f4f7; }
+
+.card { background-color: #7d3535; }
